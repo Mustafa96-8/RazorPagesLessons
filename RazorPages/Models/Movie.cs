@@ -13,7 +13,7 @@ namespace RazorPages.Models
         public DateTime ReleaseDate { get; set; }
         [Display(Name = "Жанр")]
         public string? Genre { get; set; }
-        [Display(Name = "Цены в Омарах"), Column(TypeName = "decimal(18,2)")]
+        [Display(Name = "Цена"), Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
         public string Rating { get; set; } =string.Empty;
 
